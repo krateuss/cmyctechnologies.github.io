@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+}
+
+.icons{
+  list-style:
+}
+.icons li{
+  position: relative;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.icons li:hover:before{
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+.icons li:before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  transition: all 0.3s ease-in;
+  background: linear-gradient(45deg, #A545E0, #19195A);
+}
