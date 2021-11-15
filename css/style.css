@@ -37,3 +37,13 @@ html,body{
   transition: all 0.3s ease-in;
   background: linear-gradient(45deg, #A545E0, #19195A);
 }
+.icons li:before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  transition: all 0.3s ease-in;
+  background: linear-gradient(45deg, #A545E0, #19195A);
+
